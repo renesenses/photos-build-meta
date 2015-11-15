@@ -40,7 +40,7 @@ my $REL_PICTURES_STEP_2_DIR 	= "META";
 
 sub mount_volume {
 	my $volume = $_[0];
-	my $cmd = `mount -t smbfs //192.168.1.58/BACKUP $BACKUP_VOLUME`;
+	my $cmd = `mount -t smbfs //192.168.1.58/DIAPOS $BACKUP_VOLUME`;
 }
 
 sub file_exists {
